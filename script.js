@@ -64,6 +64,8 @@ function(event){
             total = total+element.price;
             checkoutListDiv.append(div);
         })
+        let totalListDiv = document.querySelector(".total");
+        totalListDiv.innerHTML=`<p>Your total is $${total}</p>`;
         
 
         console.log("Your total is "+total);

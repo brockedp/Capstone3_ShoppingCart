@@ -1,5 +1,10 @@
-.item{
+.total{
     border: 3px dashed grey;
     color: black;
     background: beige;
+}
+.checkout-card{
+    border: 2px dashed grey;
+    color: black;
+    background: rgb(192, 192, 185);
 }
